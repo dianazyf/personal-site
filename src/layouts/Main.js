@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Navigation from '../components/template/Navigation';
-import Sidebar from '../components/template/Sidebar';
+import Navigation from '../components/Template/Navigation';
+import Sidebar from '../components/Template/Sidebar';
 
 const Main = (props) => (
     <HelmetProvider>

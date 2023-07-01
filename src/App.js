@@ -1,8 +1,9 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './static/css/main.scss'; // All of our styles
+import Main from './layouts/Main'; // fallback for lazy pages
 
-const Index = lazy(() => import('./pages/Index'));
+
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Stats = lazy(() => import('./pages/Stats'));
 const About = lazy(() => import('./pages/About'));
@@ -13,16 +14,15 @@ const Contact = lazy(() => import('./pages/Contact'));
 
 const App = () => (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Suspense fallback={<div>Loading... </div>}>
-            <Switch>
-                <Route exact path="/" component={Index} />
-                <Route exact path="/stats" component={Stats} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/cv" component={Resume} />
-                <Route exact path="/research" component={Projects} />
-                <Route exact path="/contact" component={Contact} />
-                <Route component={NotFound} status={404} />
-            </Switch>
+        <Suspense fallback={<Main />}>
+            <Routes>
+                <Route  path="/" element={<About />} />
+                <Route  path="/stats" element={<Stats />} />
+                <Route  path="/cv" element={<Resume />} />
+                <Route  path="/research" element={<Projects />} />
+                <Route  path="/contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
         </Suspense>
     </BrowserRouter>
 );
