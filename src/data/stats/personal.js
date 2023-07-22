@@ -50,7 +50,7 @@ const data = [
     {
         key: 'countries',
         label: 'Countries & Regions Visited',
-        value: 16,
+        value: 15,
         link:
             'https://www.google.com/maps/d/u/0/edit?mid=1FUcVhy3_wVpZFL-px86SnecoHtTncAo&usp=sharing',
     },
