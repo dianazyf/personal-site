@@ -1,0 +1,13 @@
+Welcome! I am a PhD Candidate in Organization Behavior at Georgia Institute of Technology.
+
+# Research 
+My research is motivated by a desire to understand **how people align themselves with others**, whether through vertical differences (i.e., **hierarchy**) or shared values (i.e., **social identity**). I have published my work in _Organization Science_ and have been invited to revise for the _Journal of Applied Psychology_. In my research, I utilize experimental designs, longitudinal surveys, archival data, multi-level modeling, and meta-analytic procedures.
+
+## 
+In my dissertation, I examine **the moderating effect of team status differentiation on how teams respond to failure**. While past research provides little insights into how teams respond to failure, I propose that failed teams may add higher-status new members to improve undesirable performance. However, not every failed team will do so because these new members may impose threats to incumbent members’ status positions, creating a tradeoff between collective (i.e., improving team performance) and individual (i.e., protecting individual’s own status position) interests. Building upon research on status conflict and team membership change, I argue that when teams have higher status differentiation, the effect of team failure on adding higher-status members is weaker or becomes non-significant because members in hierarchical teams are more likely to forsake collective welfare for individual welfare. In contrast, when teams have lower status differentiation, team failure is more likely to increase the likelihood of adding higher-status members, which in turn, improves team performance. To find support for my hypotheses, I analyzed an archival dataset consisting of 5,299 teams from a major social network services company.
+
+# Teaching 
+I have successfully taught a core Organizational Behavior course for two semesters, earning high teaching ratings (Fall 22 course rating: **4.8 / 5.0**, instructor rating: **4.8 / 5.0**; Spring 22 course rating: **4.8 / 5.0**, instructor rating: **4.9 / 5.0**) and positive student comments. I am prepared to teach OB/HR courses, including negotiation, power and politics, leadership, decision-making, diversity and inclusion, teams, and research methods and statistics.
+
+# 
+Prior to pursuing my Ph.D., I worked as a lab manager at The Pennsylvania State University and a research assistant at Carnegie Mellon University.
