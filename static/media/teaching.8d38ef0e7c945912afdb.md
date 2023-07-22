@@ -9,6 +9,6 @@ I am deeply passionate about and committed to my role as a teacher. I am ready a
 # Teaching ratings
   -	[Fall 22] Overall course rating: **4.8 / 5.0**. Instructor rating: **4.8 / 5.0**.
   Taught in-person (52 students).
-  -	[Fall 22] Overall course rating: **4.8 / 5.0**. Instructor rating: **4.9 / 5.0**.
+  -	[Spring 22] Overall course rating: **4.8 / 5.0**. Instructor rating: **4.9 / 5.0**.
   Taught in-person (48 students).
 
