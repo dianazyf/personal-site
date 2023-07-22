@@ -9,7 +9,7 @@ const Stats = lazy(() => import('./pages/Stats'));
 const About = lazy(() => import('./pages/About'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Projects = lazy(() => import('./pages/Projects'));
-const Contact = lazy(() => import('./pages/Contact'));
+const Teaching = lazy(() => import('./pages/Teaching'));
 
 
 const App = () => (
@@ -20,7 +20,7 @@ const App = () => (
                 <Route  path="/stats" element={<Stats />} />
                 <Route  path="/cv" element={<Resume />} />
                 <Route  path="/research" element={<Projects />} />
-                <Route  path="/contact" element={<Contact />} />
+                <Route  path="/teaching" element={<Teaching />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Suspense>

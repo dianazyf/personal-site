@@ -21,21 +21,16 @@ const ResearchAge = () => {
 const data = [
     {
         key: 'age',
-        label: 'Research age',
+        label: 'Years in Research',
         value: <ResearchAge />,
     },
     {
         key: 'countries',
-        label: 'Countries/Regions visited',
+        label: 'Countries & Regions visited',
         value: 16,
         link:
             'https://www.google.com/maps/d/u/0/edit?mid=1FUcVhy3_wVpZFL-px86SnecoHtTncAo&usp=sharing',
-    },
-    {
-        key: 'location',
-        label: 'Current city',
-        value: 'Suwanee, GA',
-    },
+    }
 ];
 
 export default data;

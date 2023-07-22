@@ -4,11 +4,11 @@ import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
 
-const About = () => {
+const Teaching = () => {
     const [markdown, setMarkdown] = useState('');
 
     useEffect(() => {
-        import('../data/about.md')
+        import('../data/teaching.md')
             .then((res) => {
                 fetch(res.default)
                     .then((r) => r.text())
@@ -21,11 +21,11 @@ const About = () => {
         .filter((s) => s.length).length;
 
     return (
-        <Main title="About" description="About Yufei Zhong">
-            <article className="post markdown" id="about">
+        <Main title="Teaching" description="">
+            <article className="post markdown" id="teaching">
                 <header>
                     <div className="title">
-                        <h2 data-testid="heading"><Link to="/about">Biography</Link></h2>
+                        <h2 data-testid="heading"><Link to="/teaching">Teaching</Link></h2>
                         {/*<p>(in about {count} words)</p>*/}
                     </div>
                 </header>
@@ -37,4 +37,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Teaching;

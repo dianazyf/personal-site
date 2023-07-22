@@ -17,10 +17,9 @@ const Sidebar = () => (
 
         <section className="blurb">
             <h2>About</h2>
-            <p>I am a PhD Candidate in Organizational Behavior at <a
-                href="https://www.scheller.gatech.edu/index.html/">
-                Scheller College of Business</a>, <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>.
-                I received my Bachelor's degree in Psychology from the <a href="https://psych.la.psu.edu/">Pennsylvania State University</a>.
+            <p>I am a <a href="https://www.scheller.gatech.edu/directory/phd/zhong/index.html"> PhD Candidate</a> in Organizational Behavior at
+                Scheller College of Business, Georgia Institute of Technology.
+                I received my Bachelor's degree in Psychology from the Pennsylvania State University.
             </p>
             <ul className="actions">
                 <li>

@@ -16,11 +16,11 @@ const data = [
         label: 'Email',
         icon: faEnvelope,
     },
-    // {
-    //     link: '',
-    //     label: 'GoogleScholar',
-    //     icon: faGoogle,
-    // },
+    {
+        link: 'https://scholar.google.com/citations?user=5sttZ94AAAAJ&hl=en',
+        label: 'GoogleScholar',
+        icon: faGoogle,
+    },
 ];
 
 export default data;
